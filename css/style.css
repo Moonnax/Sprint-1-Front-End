@@ -33,7 +33,7 @@ header{
     text-align: center;
 }
 
-    .menu {
+.menu {
     text-align: center;
     background-color:#010817; 
     margin-left: 15%;
@@ -251,9 +251,29 @@ footer {
 /* large device - OK */
  @media (min-width: 992px) {
     .menu-item {
-        font-size: 22px; 
-    font-weight: 800;
+        font-size: 15px; 
+        padding: 7px;
+
     }
+
+
+
+.menu {
+    text-align: center; 
+    margin-left: 12%;
+    }
+
+
+
+    header{
+    height: 100px;
+}
+
+.logo{
+    padding-bottom: 25px;
+
+}
+
  
     .side {
   width: 350px;

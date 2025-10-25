@@ -124,8 +124,6 @@ body{
     text-align: center;
 }
 
-
-
 footer {
     background-color: #010817;
     color: white;
@@ -135,11 +133,14 @@ footer {
 
 }
 
+
 /* large device */
  @media (min-width: 992px) {
-    nav {
-        font-size: 
+    /* .menu-item {
+        font-size: 22px; 
+    font-weight: 800;
     }
+ */
 
  }
 

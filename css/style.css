@@ -25,10 +25,23 @@ header{
 }
 
 
-nav{
+
+   #nav {
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+
     background-color:#010817; 
-    text-align: center; 
+    text-align: center;
 }
+
+    .menu {
+    text-align: center;
+    background-color:#010817; 
+    margin-left: 15%;
+    }
+
+
 
 .logo{
     background-color: #010817; 
@@ -137,6 +150,105 @@ footer {
 
 }
 
+.menuicon {
+    display: none;
+}
+
+
+
+
+ 
+
+
+
+
+/* medium devices */
+ @media (min-width: 768px) and (max-width: 991px) {
+
+
+
+ }
+
+
+
+
+    /* nav {
+    width: 25%;           
+    height: 100%;          
+    flex-direction: column; 
+    justify-content: flex-start;
+    text-align: right;
+    padding: 20px;
+    margin-left: auto;
+    }
+
+    .menu-item {
+    text-decoration: none;
+    padding: 15px 10px;
+    width: 100%;
+    }
+
+    .menuicon {
+        display: block;
+
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* large device */
  @media (min-width: 992px) {
@@ -164,11 +276,6 @@ footer {
  }
 
 
-/* mediu devices */
- @media (min-width: 768px) {
-    
-
- }
 
 
 /* small devices */
@@ -183,3 +290,4 @@ footer {
 
 
  }
+ 

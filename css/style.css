@@ -24,6 +24,12 @@ header{
     
 }
 
+
+nav{
+    background-color:#010817; 
+    text-align: center; 
+}
+
 .logo{
     background-color: #010817; 
     color: #fd8b08;
@@ -63,14 +69,26 @@ body{
     font-size: 50px;
 }
 
+.subtitle{
+    text-align: center;
+    font-size: 50px;
+}
+
+.imgCenter {
+    padding: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
 .box {
 
   padding: 10px;
   margin: 0 auto;
   background-color: white;
-  width: 800px;
+  width: 80%;
   height: auto;
-  align-self: center;
+  text-align: center;
+  
 }
 
 .side {
@@ -116,3 +134,32 @@ footer {
     text-decoration: none;
 
 }
+
+/* large device */
+ @media (min-width: 992px) {
+    nav {
+        font-size: 
+    }
+
+ }
+
+
+/* mediu devices */
+ @media (min-width: 768px) {
+    
+
+ }
+
+
+/* small devices */
+ @media (min-width: 600px) {
+    
+
+ }
+
+
+/* extra small devices */
+ @media (max-width: 600px) {
+
+
+ }

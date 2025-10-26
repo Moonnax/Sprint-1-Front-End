@@ -92,6 +92,7 @@ body{
   padding-left: 5%;
 
 }
+
 .box {
 
   padding: 10px;
@@ -149,14 +150,8 @@ footer {
 
 }
 
-.menuicon {
-    display: none;
-}
 
 
-
-
- 
 
 
 
@@ -164,6 +159,8 @@ footer {
 /* medium devices */
  @media (min-width: 768px) and (max-width: 991px) {
 
+
+         /* MENU LATERAL - use no small e extra small tbm! */
    #nav {
     position: fixed;
     display: block;
@@ -172,14 +169,14 @@ footer {
     text-align: right;
     right: 0;
     height: 100%;
-}
+    }
 
 
     .menu {
     display:block;
     text-align: right;
     margin: 0;
-}
+    }
 
 
     .menu-item {
@@ -187,43 +184,48 @@ footer {
     padding: 15px;
     display: block;
 
-}
+    }
 
-body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
-    margin-right: 18%;
-}
- 
-footer {
-    margin-bottom: auto;
-}
+         /* menu lateral acaba nesse de cima */
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
+        margin-right: 18%;
+    }
+    
+    footer {
+        margin-top: auto;
+    }
+
+    .formText {
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .imgCenter {
+        padding: 10px;
+        margin: 0 8%;
+    padding-left: 5%;
+
+    }
+
+        /* pág. Nossos Valores: */
+
+
+    .doubleside{
+    border: 2px solid #010817;
+    padding: 5px;
+    margin: 20px;
+    height: auto;
+
+
+        }
+
+
  }
-
-
-
-
-    /* nav {
-    width: 25%;           
-    height: 100%;          
-    flex-direction: column; 
-    justify-content: flex-start;
-    text-align: right;
-    padding: 20px;
-    margin-left: auto;
-    }
-
-    .menu-item {
-    text-decoration: none;
-    padding: 15px 10px;
-    width: 100%;
-    }
-
-    .menuicon {
-        display: block;
-
-    } */
 
 
 

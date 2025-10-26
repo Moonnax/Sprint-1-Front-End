@@ -89,6 +89,7 @@ body{
     padding: 10px;
     margin-left: 25%;
     margin-right: 25%;
+  padding-left: 5%;
 
 }
 .box {
@@ -163,8 +164,41 @@ footer {
 /* medium devices */
  @media (min-width: 768px) and (max-width: 991px) {
 
+   #nav {
+    position: fixed;
+    display: block;
+    padding: 10px;
+    width: 18%;
+    text-align: right;
+    right: 0;
+    height: 100%;
+}
 
 
+    .menu {
+    display:block;
+    text-align: right;
+    margin: 0;
+}
+
+
+    .menu-item {
+    background-color: #010817;
+    padding: 15px;
+    display: block;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
+    margin-right: 18%;
+}
+ 
+footer {
+    margin-bottom: auto;
+}
  }
 
 
@@ -190,21 +224,6 @@ footer {
         display: block;
 
     } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

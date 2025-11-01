@@ -32,6 +32,8 @@ dentalk
         banner.jpg
         crono1.png
         crono2.png
+        crono3.png
+        crono3.png
         (demais imagens são links)  
 
 *Imagens de suporte visual para evitar percas na compreensão do projeto*

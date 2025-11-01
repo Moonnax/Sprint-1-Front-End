@@ -16,7 +16,7 @@ Integrantes:
 
 ## Estrutura de Pastas
 
-dentalk
+* paginas
     - index.html
     - sobre.html
     - faq.html
@@ -25,16 +25,16 @@ dentalk
     - turmaDoBem.html
     - missao.html
     - nossosValores.html
-    - css
-        style.css
-    - imagens
-        logo.png
-        banner.jpg
-        crono1.png
-        crono2.png
-        crono3.png
-        crono3.png
-        (demais imagens são links)  
+* css
+  - style.css
+* imagens
+  - logo.png
+  - banner.jpg
+  - crono1.png
+  - crono2.png
+  - crono3.png
+  - crono3.png
+  - (demais imagens são links)  
 
 *Imagens de suporte visual para evitar percas na compreensão do projeto*
 

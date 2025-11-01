@@ -36,6 +36,9 @@ dentalk
 
 *Imagens de suporte visual para evitar percas na compreensão do projeto*
 
+## Icons
+Font awesome: https://kit.fontawesome.com/9d04bbea58.js
+
 ## Link do Repositório
 
 Link do projeto no GitHub: https://github.com/Moonnax/Sprint-1-Front-End/tree/Sprint2

@@ -150,10 +150,17 @@ footer {
 
 }
 
+a {
+    color: #ff7f7f;
+    text-decoration: none;
+}
+a:hover {
+    color: #fd8b08;
+}
 
-
-
-
+.fiap-color {
+    color: #fd8b08;
+}
 
 
 /* medium devices */
@@ -225,6 +232,7 @@ footer {
 
 
  }
+
 
 
 

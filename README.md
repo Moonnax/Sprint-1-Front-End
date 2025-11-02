@@ -45,4 +45,4 @@ Font awesome: https://kit.fontawesome.com/9d04bbea58.js
 
 Link do projeto no GitHub: https://github.com/Moonnax/Sprint-1-Front-End/tree/Sprint2
 
-Link do site online: https://moonnax.github.io/Sprint-1-Front-End/
+Link do site online: 

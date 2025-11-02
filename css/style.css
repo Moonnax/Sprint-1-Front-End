@@ -1,25 +1,25 @@
 *{
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    margin: 0rem;
+    padding: 0rem;
     background-color:white  ;
 }
 
 .menu-item {
     font-family: Arial, Helvetica, sans-serif; 
-    font-size: 16px; 
+    font-size: 1rem; 
     font-weight: 800;
     text-decoration: none;
     background-color: #010817;
     color: whitesmoke;
-    padding: 15px;
+    padding: 0.9375rem;
     display: inline-block;
 
 }
 
 header{
     background-color:#010817;
-    height: 100px;
+    height: 6.25rem;
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -51,8 +51,8 @@ header{
 .logo{
     background-color: #010817; 
     color: #fd8b08;
-    padding-left: 15px;
-    padding-bottom: 20px;
+    padding-left: 0.9375rem;
+    padding-bottom: 1.25rem;
     text-decoration: none;
 }
 
@@ -65,8 +65,8 @@ header{
 }
 
 button{
-    font-size: 25px;
-    padding: 5px;
+    font-size: 1.5625rem;
+    padding: 0.3125rem;
     text-align: center;
     text-decoration: solid;
     font-display: block;
@@ -82,18 +82,18 @@ body{
 }
 
 .title{
-    margin-top: 100PX;
+    margin-top: 6.25rem;
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .subtitle{
     text-align: center;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .imgCenter {
-    padding: 10px;
+    padding: 0.625rem;
     margin-left: 25%;
     margin-right: 25%;
   padding-left: 5%;
@@ -102,7 +102,7 @@ body{
 
 .box {
 
-  padding: 10px;
+  padding: 0.625rem;
   margin: 0 auto;
   background-color: white;
   width: 80%;
@@ -112,36 +112,36 @@ body{
 }
 
 .side {
-  border: 2px solid #010817;
-  padding: 20px;
-  margin: 10px;
+  border: 0.125rem solid #010817;
+  padding: 1.25rem;
+  margin: 0.625rem;
   background-color: white;
-  width: 400px;
+  width: 25rem;
   height: auto;
   display: inline-block;
 
 }
 
 .fotoavatar {
-    max-width: 300px;
+    max-width: 18.75rem;
       width: 100%;
       height: auto;
       display: block;
-      margin: 20px auto;
+      margin: 1.25rem auto;
 }
 
 .fotovalue {
     width: 100%;
     height: auto;
     display: block;
-    margin: 10px auto;
+    margin: 0.625rem auto;
 }
 .fotosobre {
-    max-width: 700px;
+    max-width: 43.75rem;
       width: 100%;
       height: auto;
       display: block;
-      margin: 20px auto;
+      margin: 1.25rem auto;
 }
 
 .centralize {
@@ -152,7 +152,7 @@ footer {
     background-color: #010817;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 1.25rem 0;
     text-decoration: none;
 
 }
@@ -171,37 +171,22 @@ a:hover {
 
 
 .question{
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: bold;
     color: #fd8b08;
 }
 
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* extra small devices */
- @media (max-width: 600px) {
+ @media (max-width: 37.5rem) {
 
 
          /* MENU LATERAL - use no extra small tbm! */
    #nav {
     position: fixed;
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
     width: 20%;
     text-align: right;
     right: 0;
@@ -216,24 +201,23 @@ a:hover {
     flex-direction: column;
     text-align: left;
     margin: 0;
-    gap: 60px;
+    gap: 3.75rem;
 
     }
 
 
     .menu-item {
     background-color: #010817;
-    padding: 5px;
+    padding: 0.3125rem;
     display: block;
     text-align: center;
-    font-size: 10px;
+    font-size: 0.625rem;
 
     }
 
          /* menu lateral acaba nesse de cima */
 
 
-         
 
     body {
         display: flex;
@@ -244,11 +228,11 @@ a:hover {
 
     /* pág. contato */
     .side {
-    border: 2px solid #010817;
-    padding: 20px;
-    margin: 10px;
+    border: 0.125rem solid #010817;
+    padding: 1.25rem;
+    margin: 0.625rem;
     background-color: white;
-    width: 300px;
+    width: 18.75rem;
     height: auto;
     display: inline-block;
 
@@ -256,55 +240,55 @@ a:hover {
 
     .centralize {
         text-align: center;
-        padding-right: 15px;
+        padding-right: 0.9375rem;
     }
 
 
     /* pág. faq */
 
       .formText {
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: left;
     }
 
     #text-small-device {
-        padding-right: 10px;
+        padding-right: 0.625rem;
     }
 
      #textTitle-small-device {
-        padding-left: 10px;
+        padding-left: 0.625rem;
         text-align: left;
     }
 
     .title{
-    margin-top: 80px;
+    margin-top: 5rem;
     text-align: center;
-    font-size: 42px;
-    padding-left: 20px;
+    font-size: 2.625rem;
+    padding-left: 1.25rem;
     }
 
     .question{
-    font-size: 35px;
+    font-size: 2.1875rem;
     font-weight: bold;
     color: #fd8b08;
     text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     }
 
     .answer {
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: left;
     }
 
     .box {
-        margin-left: 12px;
+        margin-left: 0.75rem;
     }
 
 
     /* pág quemSomos */
 
     .imgCenter {
-        padding: 10px;
+        padding: 0.625rem;
         margin-left: 8%;
         margin-right: 0%;
         width: 80%;
@@ -312,10 +296,10 @@ a:hover {
 
 
     .title{
-    margin-top: 60px;
+    margin-top: 3.75rem;
     text-align: center;
-    font-size: 42px;
-    padding-left: 0px;
+    font-size: 2.625rem;
+    padding-left: 0rem;
     }
 
     /* pág home */
@@ -328,61 +312,30 @@ a:hover {
 
 
     .side {
-    width: 270px;
+    width: 16.875rem;
     }
 
     #mission-xsmall-device{
-        margin-right: 5px;
-        padding-right: 0px;
+        margin-right: 0.3125rem;
+        padding-right: 0rem;
     }
  
     #font-xsmall{
-        font-size: 40px;
+        font-size: 2.5rem;
     }
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
 /* small devices - OK*/
- @media (min-width: 600px) and (max-width: 767px){
+ @media (min-width: 37.5rem) and (max-width: 47.9375rem){
     
 
          /* MENU LATERAL - use no extra small tbm! */
    #nav {
     position: fixed;
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
     width: 18%;
     text-align: right;
     right: 0;
@@ -399,7 +352,7 @@ a:hover {
 
     .menu-item {
     background-color: #010817;
-    padding: 15px;
+    padding: 0.9375rem;
     display: block;
 
 
@@ -411,96 +364,77 @@ a:hover {
     body {
         display: flex;
         flex-direction: column;
-        min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
+        min-height: 100vh; 
         margin-right: 18%;
     }
     
-    /* footer {
-        display: none;
-    } */
-
     .formText {
-        font-size: 30px;
+        font-size: 1.875rem;
         text-align: justify;
     }
 
     .imgCenter {
         margin: 0;
-        padding: 10px;
-        padding-left: 50px;
+        padding: 0.625rem;
+        padding-left: 3.125rem;
         width: 85%;
-    
-
     }
 
     .title{
-    margin-top: 100PX;
+    margin-top: 6.25rem;
     text-align: center;
-    font-size: 60px;
-    padding-bottom: 20px;
+    font-size: 3.75rem;
+    padding-bottom: 1.25rem;
 }
 
-        /* pág. Nossos Valores: */
-
-
     .doubleside{
-    border: 2px solid #010817;
-    padding: 5px;
-    margin: 20px;
+    border: 0.125rem solid #010817;
+    padding: 0.3125rem;
+    margin: 1.25rem;
     height: auto;
-
-
         }
 
-        /* pág. FAQ */
-
     .question{
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
     color: #fd8b08;
     text-align: left;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     }
 
     .answer {
-        font-size: 20px;
+        font-size: 1.25rem;
         text-align: left;
     }
 
-       /* pág. quemsomos */
-
     .mobile-click {
-        font-size: 18px;
-        padding: 10px;
+        font-size: 1.125rem;
+        padding: 0.625rem;
     }
 
     .mobile-click-link {
-        padding: 5px;
+        padding: 0.3125rem;
     }
 
-
-    /* pág. missao */
-
     .bigger-font{
-        font-size: 20px;
+        font-size: 1.25rem;
     }
  }
 
+
 /* medium devices - OK */
- @media (min-width: 768px) and (max-width: 991px) {
+ @media (min-width: 48rem) and (max-width: 61.9375rem) {
 
 
-         /* MENU LATERAL*/
    #nav {
     position: fixed;
     display: block;
-    padding: 10px;
+    padding: 0.625rem;
     width: 18%;
     text-align: right;
     right: 0;
     height: 100%;
     }
-
 
     .menu {
     display:block;
@@ -508,21 +442,16 @@ a:hover {
     margin: 0;
     }
 
-
     .menu-item {
     background-color: #010817;
-    padding: 15px;
+    padding: 0.9375rem;
     display: block;
-
     }
-
-         /* menu lateral acaba nesse de cima */
-
 
     body {
         display: flex;
         flex-direction: column;
-        min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
+        min-height: 100vh; 
         margin-right: 18%;
     }
     
@@ -531,77 +460,60 @@ a:hover {
     }
 
     .formText {
-        font-size: 30px;
+        font-size: 1.875rem;
         text-align: justify;
     }
 
     .imgCenter {
         margin: 0;
-        padding: 10px;
-
+        padding: 0.625rem;
     }
 
-        /* pág. Nossos Valores: */
-
-
     .doubleside{
-    border: 2px solid #010817;
-    padding: 5px;
-    margin: 20px;
+    border: 0.125rem solid #010817;
+    padding: 0.3125rem;
+    margin: 1.25rem;
     height: auto;
-
-
         }
-
 
  }
 
 
+
 /* large device - OK */
- @media (min-width: 992px) {
+ @media (min-width: 62rem) {
     .menu-item {
-        font-size: 15px; 
-        padding: 7px;
+        font-size: 0.9375rem; 
+        padding: 0.4375rem;
 
     }
-
-
 
 .menu {
     text-align: center; 
     margin-left: 12%;
     }
 
-
-
     header{
-    height: 100px;
+    height: 6.25rem;
 }
 
 .logo{
-    padding-bottom: 25px;
-
+    padding-bottom: 1.5625rem;
 }
 
  
     .side {
-  width: 350px;
+  width: 21.875rem;
 }
 
     .doubleside{
-  border: 2px solid #010817;
-  padding: 20px;
-  margin: 10px;
+  border: 0.125rem solid #010817;
+  padding: 1.25rem;
+  margin: 0.625rem;
   background-color: white;
-  width: 400px;
+  width: 25rem;
   height: auto;
   display: inline-block;
-
     }
 
-
- }
-
-
-
- 
+}

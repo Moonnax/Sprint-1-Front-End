@@ -36,7 +36,7 @@ Integrantes:
   - crono3.png
   - (demais imagens são links)  
 
-*Imagens de suporte visual para evitar percas na compreensão do projeto*
+*Imagens de suporte visual e auxílio na compreensão do projeto*
 
 ## Icons
 Font awesome: https://kit.fontawesome.com/9d04bbea58.js

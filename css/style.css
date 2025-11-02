@@ -31,14 +31,21 @@ header{
 
     background-color:#010817; 
     text-align: center;
+   
 }
 
 .menu {
     text-align: center;
     background-color:#010817; 
     margin-left: 15%;
+
+    list-style: none;
+
     }
 
+.block {
+    display: block;
+}
 
 
 .logo{

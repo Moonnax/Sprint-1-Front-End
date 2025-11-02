@@ -151,7 +151,7 @@ footer {
 }
 
 a {
-    color: #ff7f7f;
+    color: #587beb;
     text-decoration: none;
 }
 a:hover {
@@ -163,11 +163,161 @@ a:hover {
 }
 
 
-/* medium devices */
+.question{
+    font-size: 22px;
+    font-weight: bold;
+    color: #fd8b08;
+}
+
+
+ 
+
+/* extra small devices */
+ @media (max-width: 600px) {
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* small devices - OK*/
+ @media (min-width: 600px) and (max-width: 767px){
+    
+
+         /* MENU LATERAL - use no extra small tbm! */
+   #nav {
+    position: fixed;
+    display: block;
+    padding: 10px;
+    width: 18%;
+    text-align: right;
+    right: 0;
+    height: 100%;
+    }
+
+
+    .menu {
+    display:block;
+    text-align: left;
+    margin: 0;
+    }
+
+
+    .menu-item {
+    background-color: #010817;
+    padding: 15px;
+    display: block;
+
+
+    }
+
+         /* menu lateral acaba nesse de cima */
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
+        margin-right: 18%;
+    }
+    
+    /* footer {
+        display: none;
+    } */
+
+    .formText {
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .imgCenter {
+        margin: 0;
+        padding: 10px;
+        padding-left: 50px;
+        width: 85%;
+    
+
+    }
+
+    .title{
+    margin-top: 100PX;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+        /* pág. Nossos Valores: */
+
+
+    .doubleside{
+    border: 2px solid #010817;
+    padding: 5px;
+    margin: 20px;
+    height: auto;
+
+
+        }
+
+        /* pág. FAQ */
+
+    .question{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fd8b08;
+    text-align: left;
+    padding-bottom: 20px;
+    }
+
+    .answer {
+        font-size: 20px;
+        text-align: left;
+    }
+
+       /* pág. quemsomos */
+
+    .mobile-click {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .mobile-click-link {
+        padding: 5px;
+    }
+
+
+    /* pág. missao */
+
+    .bigger-font{
+        font-size: 20px;
+    }
+ }
+
+/* medium devices - OK */
  @media (min-width: 768px) and (max-width: 991px) {
 
 
-         /* MENU LATERAL - use no small e extra small tbm! */
+         /* MENU LATERAL*/
    #nav {
     position: fixed;
     display: block;
@@ -234,48 +384,6 @@ a:hover {
  }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* large device - OK */
  @media (min-width: 992px) {
     .menu-item {
@@ -323,17 +431,4 @@ a:hover {
 
 
 
-
-/* small devices */
- @media (min-width: 600px) {
-    
-
- }
-
-
-/* extra small devices */
- @media (max-width: 600px) {
-
-
- }
  

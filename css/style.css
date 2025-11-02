@@ -172,11 +172,177 @@ a:hover {
 
  
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* extra small devices */
  @media (max-width: 600px) {
 
 
- }
+         /* MENU LATERAL - use no extra small tbm! */
+   #nav {
+    position: fixed;
+    display: block;
+    padding: 10px;
+    width: 20%;
+    text-align: right;
+    right: 0;
+    height: 100%;
+    
+    }
+
+
+
+    .menu {
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0;
+    gap: 60px;
+
+    }
+
+
+    .menu-item {
+    background-color: #010817;
+    padding: 5px;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+
+    }
+
+         /* menu lateral acaba nesse de cima */
+
+
+         
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* o vh é Viewrpoint Height > altura da página, n do monitor*/
+        margin-right: 13%;
+    }
+
+    /* pág. contato */
+    .side {
+    border: 2px solid #010817;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    width: 300px;
+    height: auto;
+    display: inline-block;
+
+    }
+
+    .centralize {
+        text-align: center;
+        padding-right: 15px;
+    }
+
+
+    /* pág. faq */
+
+      .formText {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    #text-small-device {
+        padding-right: 10px;
+    }
+
+     #textTitle-small-device {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    .title{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 42px;
+    padding-left: 20px;
+    }
+
+    .question{
+    font-size: 35px;
+    font-weight: bold;
+    color: #fd8b08;
+    text-align: left;
+    padding-bottom: 20px;
+    }
+
+    .answer {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .box {
+        margin-left: 12px;
+    }
+
+
+    /* pág quemSomos */
+
+    .imgCenter {
+        padding: 10px;
+        margin-left: 8%;
+        margin-right: 0%;
+        width: 80%;
+    }
+
+
+    .title{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 42px;
+    padding-left: 0px;
+    }
+
+    /* pág home */
+
+    #home-small-device{
+        margin-left:10% ;
+        padding-right: 0%;
+        text-align: left;
+    }
+
+
+    .side {
+    width: 270px;
+    }
+
+    #mission-xsmall-device{
+        margin-right: 5px;
+        padding-right: 0px;
+    }
+ 
+    #font-xsmall{
+        font-size: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 
 
 

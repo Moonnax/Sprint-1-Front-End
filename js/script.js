@@ -44,4 +44,11 @@ form.addEventListener("submit", function (e) {
     alert("O campo 'Mensagem' é obrigatório.");
     return;
   }
-}
+
+  const dados = { nome, email, telefone, assunto, mensagem };
+
+  console.log("Dados do formulário salvos:");
+  console.log(dados);
+
+  form.reset();
+});

@@ -46,6 +46,7 @@ form.addEventListener("submit", function (e) {
   }
 
   const dados = { nome, email, telefone, assunto, mensagem };
+  localStorage.setItem("formContato", JSON.stringify(dados));
 
   console.log("Dados do formulário salvos:");
   console.log(dados);

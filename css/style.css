@@ -517,3 +517,56 @@ a:hover {
     }
 
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 2px solid #010817;
+  border-radius: 0.625rem;
+  background-color: white;
+}
+
+.form label {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 0.75rem;
+  color: #010817;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+}
+
+.form button {
+  margin-top: 1.5rem;
+  background-color: #fd8b08;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.form button:hover {
+  background-color: #e27a07;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .form {
+    width: 85%;
+    padding: 1.5rem;
+  }
+}

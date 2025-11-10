@@ -34,7 +34,9 @@ Integrantes:
   - crono2.png
   - crono3.png
   - crono3.png
-  - (demais imagens são links)  
+  - (demais imagens são links) 
+* js
+  - script.js
 
 *Imagens de suporte visual e auxílio na compreensão do projeto*
 

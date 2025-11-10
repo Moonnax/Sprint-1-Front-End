@@ -50,5 +50,7 @@ form.addEventListener("submit", function (e) {
   console.log("Dados do formulário salvos:");
   console.log(dados);
 
+  alert("Formulário enviado com sucesso!\nEntraremos em contato em breve.");
+
   form.reset();
 });

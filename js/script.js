@@ -55,3 +55,29 @@ form.addEventListener("submit", function (e) {
 
   form.reset();
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const perguntas = document.querySelectorAll(".question");
+  const respostas = document.querySelectorAll(".answer");
+
+  if (perguntas.length === 0) return;
+
+  respostas.forEach((resposta) => {
+    resposta.style.display = "none";
+  });
+
+  perguntas.forEach((pergunta, i) => {
+    pergunta.style.cursor = "pointer";
+    pergunta.addEventListener("click", () => {
+      const resposta = respostas[i];
+
+      if (resposta.style.display === "none") {
+        resposta.style.display = "block";
+        pergunta.style.color = "#010817";
+      } else {
+        resposta.style.display = "none";
+        pergunta.style.color = "#fd8b08";
+      }
+    });
+  });
+});
